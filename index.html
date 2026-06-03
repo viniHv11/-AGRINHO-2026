@@ -1,1 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte, Futuro Sustentável</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo Agro Forte">
+        <h1>Agro Forte, Futuro Sustentável</h1>
+        <h2>Produzindo com Responsabilidade, Sempre!</h2>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#producao">Produção</a></li>
+                <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+                <li><a href="#desafios">Desafios</a></li>
+                <li><a href="#solucoes">Soluções</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <section id="home">
+            <h3>Importância do Equilíbrio</h3>
+            <p>A produção agrícola deve coexistir com a preservação ambiental...</p>
+            <img src="paisagem-agricola.jpg" alt="Paisagem agrícola sustentável">
+        </section>
+
+        <section id="producao">
+            <h3>Aumento da Produção Agrícola</h3>
+            <div class="grafico">
+                <img src="grafico-producao.png" alt="Gráfico de produção">
+            </div>
+            <p>O agronegócio é um pilar da economia brasileira...</p>
+        </section>
+
+        <section id="sustentabilidade">
+            <h3>Tecnologias Sustentáveis</h3>
+            <ul>
+                <li>Agricultura de precisão</li>
+                <li>Irrigação inteligente</li>
+                <li>Uso de fertilizantes orgânicos</li>
+            </ul>
+            <p>Práticas como rotação de culturas são essenciais...</p>
+        </section>
+
+        <section id="desafios">
+            <h3>Desafios Ambientais</h3>
+            <p>O desmatamento e o uso excessivo da água são preocupações... </p>
+        </section>
+
+        <section id="solucoes">
+            <h3>Novas Tecnologias</h3>
+            <p>As tecnologias estão moldando o futuro do agronegócio...</p>
+        </section>
+
+        <section id="contato">
+            <h3>Contato</h3>
+            <form action="mailto:exemplo@dominio.com" method="post" enctype="text/plain">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Links para redes sociais</p>
+        <p>Informações de contato</p>
+        <p>Convite para reflexão sobre a responsabilidade de cada um em promover a sustentabilidade.</p>
+    </footer>
+</body>
+</html>
+Estilo CSS (styles.css)
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label, form input, form textarea {
+    margin: 10px 0;
+}
+
+form button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #45a049;
+}
